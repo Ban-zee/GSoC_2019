@@ -34,7 +34,7 @@ While working on `base.py`, the primary bottleneck which could be somewhat impro
 The pull request can be found [here](!https://github.com/arviz-devs/arviz/pull/774)
 
 
-## Work Done:
+## Work Done
 
 As jitting tests has no meaning,all of my work as mentioned in the project proposal has been complete. The necessary benchmarks tests have been added as well. However, on the request of my mentors, I was asked to work on ahead of time numba compilation which too has been completed and the only work left is the integrtion of aot into the main code; which would be done at a later stage. The aot pr can be found [here](!https://github.com/arviz-devs/arviz/pull/785)
 
@@ -42,5 +42,7 @@ As jitting tests has no meaning,all of my work as mentioned in the project propo
 ### Other important links:
 
 [Link to my blog for a more detailed analysis](!https://ban-zee.github.io/)
+
+
 [Commit History](!https://github.com/arviz-devs/arviz/commits?author=Ban-zee)
 
