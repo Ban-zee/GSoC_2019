@@ -49,3 +49,5 @@ As jitting tests has no meaning, all of my work, as mentioned in the project pro
 [Commit History](https://github.com/arviz-devs/arviz/commits?author=Ban-zee)
 
 [Code profiling and bottleneck identification](https://github.com/arviz-devs/arviz/pull/687)
+
+To read the necessary documentation, refer to the my final blog post.
