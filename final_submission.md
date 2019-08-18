@@ -15,14 +15,14 @@ In line with the timeline agreed upon by my mentors, I started my work with Numb
 
 The task was completed successfully with an approx speed gain of almost 40% in most cases.
 
-The merged pull request can be found [here](!https://github.com/arviz-devs/arviz/pull/710)
+The merged pull request can be found [here](https://github.com/arviz-devs/arviz/pull/710)
 
 ### Working on numba plots: 
 
 Just like with stats, the first thing to do was profiling every single plot via [line_profiler](https://github.com/rkern/line_profiler). The best thing about working on plots is that the majority of them are based on [`plot_kde`](https://arviz-devs.github.io/arviz/generated/arviz.plot_kde.html#arviz.plot_kde), which can be optimised substantially using numba. 
 
 
-This task too was completed successfully and the required merged pull request can be found [here](!https://github.com/arviz-devs/arviz/pull/742)
+This task too was completed successfully and the required merged pull request can be found [here](https://github.com/arviz-devs/arviz/pull/742)
 
 
 ### Working on numba data:
@@ -31,7 +31,7 @@ Luckily, like plots, data too had a base on which most of the methods were built
 Working on Data
 While working on `base.py`, the primary bottleneck which could be somewhat improved were `np.atleast_1d` and `np.atleast_2d`. Given that these methods were not compatible with numba nopython mode, I had to look into their source code to remove the possible bottlenecks. The major bottleneck in the methods as mentioned above was `np.asanyarray`. Given that in the majority of the cases in ArviZ, we deal with numpy arrays, this type of conversion was mainly redundant. However, to be safe I, I did add an additional provision to handle the rare instance of encountering something other than a numpy array. These changes worked well, and I was able to gain a few units of time in the data functions.
 
-The pull request can be found [here](!https://github.com/arviz-devs/arviz/pull/774)
+The pull request can be found [here](https://github.com/arviz-devs/arviz/pull/774)
 
 
 ## Work Done
@@ -41,8 +41,8 @@ As jitting tests has no meaning,all of my work as mentioned in the project propo
 
 ### Other important links:
 
-[Link to my blog for a more detailed analysis](!https://ban-zee.github.io/)
+[Link to my blog for a more detailed analysis](https://ban-zee.github.io/)
 
 
-[Commit History](!https://github.com/arviz-devs/arviz/commits?author=Ban-zee)
+[Commit History](https://github.com/arviz-devs/arviz/commits?author=Ban-zee)
 
