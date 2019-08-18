@@ -17,6 +17,8 @@ The task was completed successfully with an approx speed gain of almost 40% in m
 
 The merged pull request can be found [here](https://github.com/arviz-devs/arviz/pull/710)
 
+
+A feature to enable and disable numba-jit as and when required was also added along with the benchmark tests.
 ### Working on numba plots: 
 
 Just like with stats, the first thing to do was profiling every single plot via [line_profiler](https://github.com/rkern/line_profiler). The best thing about working on plots is that the majority of them are based on [`plot_kde`](https://arviz-devs.github.io/arviz/generated/arviz.plot_kde.html#arviz.plot_kde), which can be optimised substantially using numba. 
@@ -36,7 +38,7 @@ The pull request can be found [here](https://github.com/arviz-devs/arviz/pull/77
 
 ## Work Done
 
-As jitting tests has no meaning,all of my work as mentioned in the project proposal has been complete. The necessary benchmarks tests have been added as well. However, on the request of my mentors, I was asked to work on ahead of time numba compilation which too has been completed and the only work left is the integrtion of aot into the main code; which would be done at a later stage. The aot pr can be found [here](!https://github.com/arviz-devs/arviz/pull/785)
+As jitting tests has no meaning,all of my work as mentioned in the project proposal has been complete. The necessary benchmarks tests have been added as well. However, on the request of my mentors, I was asked to work on ahead of time numba compilation which too has been completed and the only work left is the integrtion of aot into the main code; which would be done at a later stage. The aot pr can be found [here](https://github.com/arviz-devs/arviz/pull/785)
 
 
 ### Other important links:
