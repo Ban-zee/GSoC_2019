@@ -1,4 +1,4 @@
-## GsoC 2019 Submission Details
+## GSoC 2019 Submission Details
 
 As required by Google Guidelines, the commit history and the pull request list have been provided in this blog post. To allow the reader to understand the changes made during the work period, I have provided a detailed account of the vital pull requests.
 
@@ -36,7 +36,7 @@ While working on `base.py`, the primary bottleneck which could be somewhat impro
 The pull request can be found [here](https://github.com/arviz-devs/arviz/pull/774)
 
 
-## Work Done
+## What's done and what's left?
 
 As jitting tests has no meaning, all of my work, as mentioned in the project proposal, has been completed. The necessary benchmarks tests have been added as well. However, on the request of my mentors, I was asked to work on ahead of time numba compilation which too has been completed and the only work left is the integration of aot into the main code; which would be done at a later stage. The aot pr is available [here](https://github.com/arviz-devs/arviz/pull/785)
 
