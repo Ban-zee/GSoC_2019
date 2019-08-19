@@ -6,7 +6,7 @@ As required by Google Guidelines, the commit history and the pull request list h
 * [Plots](https://github.com/arviz-devs/arviz/pull/742)
 * [Data](https://github.com/arviz-devs/arviz/pull/774)
 * [AOT](https://github.com/arviz-devs/arviz/pull/785)
-
+* [Code profiling and bottleneck identification](https://github.com/arviz-devs/arviz/pull/687)
 ### Working on numba stats and diagnostics:
 
 In line with the timeline agreed upon by my mentors, I started my work with Numba implementation on stats. After going through different resources(both video and official documentation), the following method of work was adopted by me:
