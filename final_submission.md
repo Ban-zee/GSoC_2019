@@ -1,7 +1,11 @@
 ## GSoC 2019 Submission Details
 
-As required by Google Guidelines, the commit history and the pull request list have been provided in this blog post. To allow the reader to understand the changes made during the work period, I have provided a detailed account of the vital pull requests.
+As required by Google Guidelines, the commit history and the pull request list have been provided in this blog post. To allow the reader to understand the changes made during the work period, I have provided a detailed account of the vital pull requests. For those who just want to see the code changes without going into details, here is a list of my pull requests:
 
+* [Stats and Diagnostics](https://github.com/arviz-devs/arviz/pull/710)
+* [Plots](https://github.com/arviz-devs/arviz/pull/742)
+* [Data](https://github.com/arviz-devs/arviz/pull/774)
+* [AOT](https://github.com/arviz-devs/arviz/pull/785)
 
 ### Working on numba stats and diagnostics:
 
