@@ -7,6 +7,8 @@ As required by Google Guidelines, the commit history and the pull request list h
 * [Data](https://github.com/arviz-devs/arviz/pull/774)
 * [AOT](https://github.com/arviz-devs/arviz/pull/785)
 * [Code profiling and bottleneck identification](https://github.com/arviz-devs/arviz/pull/687)
+
+To read the necessary documentation, refer to the my final blog post(Link has been provided at the end of this post)
 ### Working on numba stats and diagnostics:
 
 In line with the timeline agreed upon by my mentors, I started my work with Numba implementation on stats. After going through different resources(both video and official documentation), the following method of work was adopted by me:
@@ -49,9 +51,7 @@ As jitting tests has no meaning, all of my work, as mentioned in the project pro
 
 [Link to my blog for a more detailed analysis](https://ban-zee.github.io/)
 
-
 [Commit History](https://github.com/arviz-devs/arviz/commits?author=Ban-zee)
 
 [Code profiling and bottleneck identification](https://github.com/arviz-devs/arviz/pull/687)
 
-To read the necessary documentation, refer to the my final blog post.
