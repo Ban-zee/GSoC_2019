@@ -5,7 +5,7 @@ As required by Google Guidelines, the commit history and the pull request list h
 * [Stats and Diagnostics](https://github.com/arviz-devs/arviz/pull/710)
 * [Plots](https://github.com/arviz-devs/arviz/pull/742)
 * [Data](https://github.com/arviz-devs/arviz/pull/774)
-* [AOT](https://github.com/arviz-devs/arviz/pull/785)
+* [Ahead of time Compilation](https://github.com/arviz-devs/arviz/pull/785)
 * [Code profiling and bottleneck identification](https://github.com/arviz-devs/arviz/pull/687)
 
 To read the necessary documentation, refer to the my final blog post(Link has been provided at the end of this post)
