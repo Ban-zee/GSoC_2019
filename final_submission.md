@@ -44,7 +44,7 @@ The pull request can be found [here](https://github.com/arviz-devs/arviz/pull/77
 
 ## What's done and what's left?
 
-As jitting tests has no meaning, all of my work, as mentioned in the project proposal, has been completed. The necessary benchmarks tests have been added as well. However, on the request of my mentors, I was asked to work on ahead of time numba compilation which too has been completed and the only work left is the integration of aot into the main code; which would be done at a later stage. The aot pr is available [here](https://github.com/arviz-devs/arviz/pull/785)
+As jitting tests has no meaning, all of my work, as mentioned in the project proposal, has been completed. The necessary benchmarks tests have been added as well. However, on the request of my mentors, I was asked to work on ahead of time numba compilation which too has been completed and the only work left is the integration of aot into the main code; which would be done at a later stage along with the necessary documentation. The ahead of time pr is available [here](https://github.com/arviz-devs/arviz/pull/785)
 
 
 ### Other essential links:
